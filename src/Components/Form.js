@@ -1,15 +1,13 @@
 import { React, useState, useEffect } from "react";
-import "./form.css";
+import "./Form.css"
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
-// import { InputLabel } from "@mui/material";
-// import RaisedButton from "@mui/material/Raised"
 import Button from "@mui/material/Button";
 
 const stylee = {
   outerbox: {
     width: "50%",
-    minHeight: "max-content",
+    padding:"2rem",
     backgroundColor: "white",
     display: "flex",
     flexDirection: "column",
@@ -20,6 +18,8 @@ const stylee = {
     boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
   },
 };
+
+
 
 const Form = () => {
   const handleSubmit = () => {};
@@ -33,9 +33,11 @@ const Form = () => {
     }
   }, [selectedImage]);
 
+
   return (
+    <div style={{ height:"100vh" , display:"flex", alignItems:"center", justifyContent:"center", backgroundColor:"#eee"}} >
     <div style={stylee.outerbox}>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} >
         <Box
           component="form"
           sx={{
@@ -61,10 +63,6 @@ const Form = () => {
             label="Contact Number"
             variant="standard"
           />
-          {/* <div className="upload-input">
-                <InputLabel style={{paddingBottom:'10px'}}>Upload Image</InputLabel>
-                <input id="choose image/video" type="file" />
-          </div> */}
 
           <input
             accept="image/*"
@@ -99,6 +97,7 @@ const Form = () => {
 
         </Box>
       </form>
+    </div>
     </div>
   );
 };

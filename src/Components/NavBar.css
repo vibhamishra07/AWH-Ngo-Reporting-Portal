@@ -1,0 +1,62 @@
+.header{
+    width: 100%;
+    z-index: 99;
+    /* height: 6rem; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    /* font-size: 1.5rem; */
+}
+.nav-bar{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* background-color: #2196F3; */
+}
+.logo>img{
+    height: 70px;
+    width: 70px;
+}
+.nav-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-title>div{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+
+}
+.contact-buttons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.contact-buttons>ul{
+   list-style-type: none;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   text-align: center;
+}
+.contact-buttons>ul>li{
+    padding-left: 15px;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+    width: 3rem !important;
+    height: 3rem !important;
+    color: #5a5959;
+    transition: 0.3s color ease-in-out;
+} 
+.css-i4bv87-MuiSvgIcon-root:hover{
+    color: #334935;
+    transition: 0.5s color ease-in-out;
+}

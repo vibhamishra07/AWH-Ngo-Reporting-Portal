@@ -1,7 +1,6 @@
 import React from 'react'
-import './App.css'
-
-import Form from './Form';
+import Form from './Components/Form';
+import NavBar from './Components/NavBar';
   
 
 
@@ -9,10 +8,9 @@ const App = () => {
   
   return (
     <>
-    <div className='App'>
-        <h1>FORM BOX</h1>
-        <Form></Form>
-    </div>
+        <NavBar/>
+        <Form/>
+
     </>
   );
 }
