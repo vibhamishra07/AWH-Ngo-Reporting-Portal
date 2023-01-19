@@ -18,9 +18,9 @@ const NavBar=()=> {
             </div>
             <div className='contact-buttons'>
                 <ul>
-                  <li><a href='https://www.facebook.com/animalswithhumanity' target="_blank"><FacebookIcon /></a></li>
-                  <li><a href='https://www.instagram.com/animalswithhumanity_' target="_blank"><InstagramIcon /></a></li>
-                  <li><a href='https://wa.me/message/MGDJVZCQKXI7K1' target="_blank"><WhatsAppIcon/></a></li>
+                  <li><a href='https://www.facebook.com/animalswithhumanity' target="_blank" rel="noreferrer"><FacebookIcon /></a></li>
+                  <li><a href='https://www.instagram.com/animalswithhumanity_' target="_blank" rel="noreferrer"><InstagramIcon /></a></li>
+                  <li><a href='https://wa.me/message/MGDJVZCQKXI7K1' target="_blank" rel="noreferrer"><WhatsAppIcon/></a></li>
                 </ul>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Form from './Components/Form';
+import FormApp from './Components/FormApp';
 import NavBar from './Components/NavBar';
   
 
@@ -9,8 +9,7 @@ const App = () => {
   return (
     <>
         <NavBar/>
-        <Form/>
-
+        <FormApp/>
     </>
   );
 }
