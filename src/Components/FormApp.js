@@ -4,20 +4,7 @@ import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 
-const stylee = {
-  outerbox: {
-    width: "50%",
-    padding:"2rem",
-    backgroundColor: "white",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-between",
-    alignItems: "center",
-    textAlign: "center",
-    borderRadius: "10px",
-    boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
-  },
-};
+
 
 
 
@@ -47,8 +34,8 @@ const FormApp = () => {
   }
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log("hello");
-    console.log(formDetails);
+    // console.log("hello");
+    // console.log(formDetails);
     setFormDetails({
       firstName: "",
       lastName: "",
@@ -62,7 +49,7 @@ const FormApp = () => {
 
   return (
     <div className="form-component">
-      <div style={stylee.outerbox}>
+      <div className="outerbox">
         <form  onSubmit={submitHandler}>
           <Box
             sx={{
